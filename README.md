@@ -1,53 +1,51 @@
-
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club Case Study
+> A case study analyzing how data can be used to minimize the risk of losing money while lending to customers.
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Goal](#goal)
+* [Context of Problem](#context-of-problem)
+* [Target](#target)
+* [Risk Associated with the Problem](#risk-associated-with-the-problem)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This case study focuses on analyzing loan data to reduce the credit loss by identifying factors that contribute to loan defaults.
+- Lending Club is the largest online loan marketplace, providing personal and business loans, as well as financing for medical procedures.
+- The dataset contains information about past loans and their outcomes, where borrowers who have defaulted on their loans are labelled as 'charged-off' or 'defaulters'.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Goal
+- The goal of this project is to use Exploratory Data Analysis (EDA) techniques to minimize the risk of credit loss by identifying driving factors for loan default.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Context of Problem
+- Lending Club offers loans at lower interest rates through an easy-to-use online platform.
+- The primary issue is credit loss, which occurs when borrowers default on their loans. This loss is significant for lenders, and identifying risky applicants is critical.
+- The borrowers who default are labelled as 'charged-off' and contribute the most to the financial losses for the lender.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Target
+- The aim is to reduce credit loss by finding factors that contribute to loan default using EDA techniques.
 
+## Risk Associated with the Problem
+- If an applicant is likely to repay the loan and the loan is not approved, it results in a loss of business (rejecting loans for non-defaulting applicants).
+- If an applicant is not likely to repay the loan and the loan is approved, it leads to financial loss (approving loans for defaulting applicants).
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 
+- Jupyter Notebook 
+- MATLAB 
+- NumPy
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+- Conclusion 1: Key factors driving loan defaults were identified through data analysis.
+- Conclusion 2: Applicants with specific credit scores and loan amounts were found to be more prone to default.
+- Conclusion 3: Default risk is higher in certain loan types and terms.
+- Conclusion 4: Applicants from certain geographic regions or employment sectors showed higher default rates.
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by the need to minimize financial loss in lending.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@vivekpemawat,@VIRGILLUS-ZITA ] - feel free to contact me!
